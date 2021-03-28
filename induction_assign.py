@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('c:/Users/AKANKSHA D/Desktop/Programming/ERC/line_detection.jpg')
+img = cv2.imread('line_detection.jpg')
 
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
